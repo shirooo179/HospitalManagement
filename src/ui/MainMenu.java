@@ -18,9 +18,9 @@ public class MainMenu {
             sc.nextLine(); // consume newline
 
             switch (choice) {
-                case 1 -> System.out.println("Quản lý bệnh nhân (chưa triển khai)");
-                case 2 -> System.out.println("Quản lý bác sĩ (chưa triển khai)");
-                case 3 -> System.out.println("Quản lý lịch hẹn (chưa triển khai)");
+                case 1 -> System.out.println("Quản lý bệnh nhân");
+                case 2 -> System.out.println("Quản lý bác sĩ");
+                case 3 -> System.out.println("Quản lý lịch hẹn");
                 case 4 -> {
                     AuthService.dangXuat();
                     System.out.println("Đăng xuất thành công.");
